@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column{
+    float: left;
+    padding: 5px;
+    flex-basis: 600px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td{
+    text-align: left;
+    padding: 16px;
+}
+
+menu{
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+menu a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+menu a:hover{
+    background-color: #777;
+}
+header{padding: 50px;}
